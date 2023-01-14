@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/maibhi.css" />
+  </head>
+  <body>
+    <h1>A meeting room reservation form</h1>
+    <fieldset>
+      <legend>Personal info</legend>
+      <div class="m">
+        <label for="a">Your name</label>
+        <input
+          id="a"
+          type="text"
+          autofocus
+          autocomplete="on"
+          required
+          placeholder="jane"
+        />
+      </div>
+      <div class="m">
+        <label for="b">Your email :</label>
+        <input
+          id="b"
+          type="email"
+          autocomplete="on"
+          required
+          placeholder="austin"
+        />
+      </div>
+      <div class="m">
+        <label for="phonen">Phone number : </label>
+        <input id="phonen" type="tel" placeholder="777-777-777" required />
+      </div>
+      <div class="m">
+        <label for="c">department:</label>
+        <!-- <input id="c" type="text" autofocus autocomplete="on" required placeholder="Choose"> -->
+        <select id="c">
+          <option>AC</option>
+          <option selected>NON-AC</option>
+        </select>
+      </div>
+      <div class="m">
+        <label for="d">Which room you would like to reserver: </label>
+            <input id="yo" name="yo" type="radio" />
+            <label for="yo">Room a</label>
+        <input id="yo1" name="yo" type="radio" />
+        <label for="yo1">Room b</label>
+      </div>
+      <div id="tobeflex">
+        <div class="m">
+            <label for="e">Extra requirements : </label>
+        </div>
+        <div>
+            <p>
+                ><input id="doublebed" type="checkbox" />
+                <label for="doublebed">Double Bed</label
+                </p>
+                <p>
+                    <input id="tv" type="checkbox" />
+                    <label for="tv">100inch TV</label>
+                </p>
+                <p>
+                    ><input id="Harddrinks" type="checkbox" />
+                    <label for="Harddrinks">Drinks</label                
+                    </p>
+                </div>
+                </div>
+      <div class="m">
+          <label for="f">Reservation date :</label>
+          <input type="date" name="" id="" />
+        </div>
+        <div class="m">
+            <label for="g">Reservation time : </label>
+            <input type="time" name="" id="" />
+        </div>
+    </fieldset>
+</body>
+</html>
